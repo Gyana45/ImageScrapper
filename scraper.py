@@ -101,7 +101,9 @@ def search_and_download(search_term: str, driver_path: str, target_path='./image
 
 
 DRIVER_PATH = r'/Users/gyana/Documents/GitHub/ImageScrapper/chromedriver'
+#/opt/homebrew/bin/chromedriver
+#DRIVER_PATH = r'/opt/homebrew/bin/chromedriver'
 search_term = 'Narendra Modi'
 # num of images you can pass it from here  by default it's 10 if you are not passing
 # number_images = 50
-search_and_download(search_term=search_term, driver_path=DRIVER_PATH, number_images=150)
+search_and_download(search_term=search_term, driver_path=DRIVER_PATH, number_images=50)
